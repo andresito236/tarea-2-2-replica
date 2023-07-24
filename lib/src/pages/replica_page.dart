@@ -103,7 +103,7 @@ class ReplicaPage extends StatelessWidget {
                   padding: EdgeInsets.all(16.0),
                   child: Column(
                     children: [
-                      Padding(
+                      const Padding(
                         padding: EdgeInsets.only(bottom: 8.0),
                         child: Row(
                           children: [
@@ -111,7 +111,7 @@ class ReplicaPage extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Padding(
+                      const Padding(
                         padding: EdgeInsets.symmetric(vertical: 5.0),
                         child: Row(
                           children: [
@@ -155,12 +155,12 @@ class ReplicaPage extends StatelessWidget {
                           children: [
                             ClipRRect(
                               borderRadius: BorderRadius.circular(8.0),
-                              child: Image(
+                              child: const Image(
                                 image: AssetImage('assets/whatsapp-icon.png')
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(left: 16.0), 
+                            const Padding(
+                              padding: EdgeInsets.only(left: 16.0), 
                               child: Text('Enviar mensaje a +504 9902-9311',
                                 style: TextStyle(
                                   fontSize: 14,
@@ -176,12 +176,12 @@ class ReplicaPage extends StatelessWidget {
                           children: [
                             ClipRRect(
                               borderRadius: BorderRadius.circular(8.0),
-                              child: Image(
+                              child: const Image(
                                 image: AssetImage('assets/whatsapp-icon.png')
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(left: 16.0), 
+                            const Padding(
+                              padding: EdgeInsets.only(left: 16.0), 
                               child: Text('Llamar a +504 9902-9311',
                                 style: TextStyle(
                                   fontSize: 14,
@@ -197,12 +197,12 @@ class ReplicaPage extends StatelessWidget {
                           children: [
                             ClipRRect(
                               borderRadius: BorderRadius.circular(8.0),
-                              child: Image(
+                              child: const Image(
                                 image: AssetImage('assets/whatsapp-icon.png')
                               ),
                             ),
-                            Padding(
-                              padding: const EdgeInsets.only(left: 16.0), 
+                            const Padding(
+                              padding: EdgeInsets.only(left: 16.0), 
                               child: Text('Videollamar a +504 9902-9311',
                                 style: TextStyle(
                                   fontSize: 14,
@@ -212,15 +212,15 @@ class ReplicaPage extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 0),
+                      const Padding(
+                        padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 0),
                         child: Row(
                           children: [
                             Image(
                                 image: AssetImage('assets/telegram-icon.svg.png')
                               ),
                             Padding(
-                              padding: const EdgeInsets.only(left: 16.0), 
+                              padding: EdgeInsets.only(left: 16.0), 
                               child: Text('Mensaje al +5049902-9311',
                                 style: TextStyle(
                                   fontSize: 14,
@@ -230,15 +230,15 @@ class ReplicaPage extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 0),
+                      const Padding(
+                        padding:  EdgeInsets.symmetric(vertical: 8.0, horizontal: 0),
                         child: Row(
                           children: [
                             Image(
                                 image: AssetImage('assets/telegram-icon.svg.png')
                               ),
                             Padding(
-                              padding: const EdgeInsets.only(left: 16.0), 
+                              padding:  EdgeInsets.only(left: 16.0), 
                               child: Text('Llamada de voz al +5049902-9311',
                                 style: TextStyle(
                                   fontSize: 14,
@@ -248,15 +248,15 @@ class ReplicaPage extends StatelessWidget {
                           ],
                         ),
                       ),
-                      Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 0),
+                      const Padding(
+                        padding: EdgeInsets.symmetric(vertical: 8.0, horizontal: 0),
                         child: Row(
                           children: [
                             Image(
                                 image: AssetImage('assets/telegram-icon.svg.png')
                               ),
                             Padding(
-                              padding: const EdgeInsets.only(left: 16.0), 
+                              padding: EdgeInsets.only(left: 16.0), 
                               child: Text('Videollamada al +5049902-9311',
                                 style: TextStyle(
                                   fontSize: 14,
