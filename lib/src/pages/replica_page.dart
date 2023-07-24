@@ -100,7 +100,7 @@ class ReplicaPage extends StatelessWidget {
                     color: Color(0xFFE9E9E9),
                     borderRadius: BorderRadius.all(Radius.circular(10))),
                 child: Padding(
-                  padding: EdgeInsets.all(16.0),
+                  padding: const EdgeInsets.all(16.0),
                   child: Column(
                     children: [
                       const Padding(
